@@ -4,7 +4,7 @@ import {Container, Poster} from "./style";
 const Movie = ({id, bg}) => {
 	return (
 		<Container>
-			<Link to={`/${id}`}>
+			<Link to={`/movies-react/${id}`}>
 				<Poster bg={bg} />
 			</Link>
 		</Container>
